@@ -1,0 +1,112 @@
+{
+  "index.html": {
+    "file": "js/index.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.js"
+    ],
+    "dynamicImports": [
+      "src/views/Heroes.vue",
+      "src/views/Calculator.vue",
+      "src/views/HuanJing.vue",
+      "src/views/WuNei.vue",
+      "src/views/Stone.vue",
+      "src/views/StoneEmulator/StoneEmulator.vue",
+      "src/components/input-text/InputText.vue",
+      "src/components/input-number/InputNumber.vue"
+    ]
+  },
+  "_vendor.js": {
+    "file": "js/vendor.js"
+  },
+  "src/views/Heroes.vue": {
+    "file": "js/Heroes.js",
+    "src": "src/views/Heroes.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.js",
+      "_lodash.js"
+    ]
+  },
+  "_lodash.js": {
+    "file": "js/lodash.js",
+    "imports": [
+      "_vendor.js"
+    ]
+  },
+  "src/views/Calculator.vue": {
+    "file": "js/Calculator.js",
+    "src": "src/views/Calculator.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js",
+      "index.html",
+      "_lodash.js",
+      "src/components/input-number/InputNumber.vue",
+      "_data.js"
+    ]
+  },
+  "src/components/input-number/InputNumber.vue": {
+    "file": "js/InputNumber.js",
+    "src": "src/components/input-number/InputNumber.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js"
+    ]
+  },
+  "_data.js": {
+    "file": "js/data.js"
+  },
+  "src/views/HuanJing.vue": {
+    "file": "js/HuanJing.js",
+    "src": "src/views/HuanJing.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js"
+    ],
+    "assets": [
+      "assets/selected.svg"
+    ]
+  },
+  "src/views/WuNei.vue": {
+    "file": "js/WuNei.js",
+    "src": "src/views/WuNei.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js"
+    ]
+  },
+  "src/views/Stone.vue": {
+    "file": "js/Stone.js",
+    "src": "src/views/Stone.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js",
+      "_data.js",
+      "_data2.js"
+    ]
+  },
+  "_data2.js": {
+    "file": "js/data2.js"
+  },
+  "src/views/StoneEmulator/StoneEmulator.vue": {
+    "file": "js/StoneEmulator.js",
+    "src": "src/views/StoneEmulator/StoneEmulator.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.js",
+      "_data2.js"
+    ]
+  },
+  "src/components/input-text/InputText.vue": {
+    "file": "js/InputText.js",
+    "src": "src/components/input-text/InputText.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.js"
+    ]
+  }
+}

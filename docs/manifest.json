@@ -21,14 +21,18 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
+      "_useTransformTools.js",
       "_lodash.js"
     ]
   },
-  "_lodash.js": {
-    "file": "js/lodash.js",
+  "_useTransformTools.js": {
+    "file": "js/useTransformTools.js",
     "imports": [
       "index.html"
     ]
+  },
+  "_lodash.js": {
+    "file": "js/lodash.js"
   },
   "src/views/Calculator.vue": {
     "file": "js/Calculator.js",
@@ -38,6 +42,7 @@
       "index.html",
       "_lodash.js",
       "src/components/input-number/InputNumber.vue",
+      "_useTransformTools.js",
       "_data.js"
     ]
   },
@@ -98,7 +103,8 @@
     "src": "src/views/Grids.vue",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "index.html",
+      "_lodash.js"
     ]
   },
   "src/components/input-text/InputText.vue": {

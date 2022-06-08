@@ -41,6 +41,7 @@
     "imports": [
       "index.html",
       "_lodash.js",
+      "_useHeroes.js",
       "src/components/input-number/InputNumber.vue",
       "_useTransformTools.js",
       "_data.js"
@@ -56,6 +57,12 @@
   },
   "_data.js": {
     "file": "js/data.js"
+  },
+  "_useHeroes.js": {
+    "file": "js/useHeroes.js",
+    "imports": [
+      "index.html"
+    ]
   },
   "src/views/HuanJing.vue": {
     "file": "js/HuanJing.js",
@@ -104,7 +111,8 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_lodash.js"
+      "_lodash.js",
+      "_useHeroes.js"
     ]
   },
   "src/components/input-text/InputText.vue": {

@@ -55,14 +55,14 @@
       "index.html"
     ]
   },
-  "_data.js": {
-    "file": "js/data.js"
-  },
   "_useHeroes.js": {
     "file": "js/useHeroes.js",
     "imports": [
       "index.html"
     ]
+  },
+  "_data.js": {
+    "file": "js/data.js"
   },
   "src/views/HuanJing.vue": {
     "file": "js/HuanJing.js",

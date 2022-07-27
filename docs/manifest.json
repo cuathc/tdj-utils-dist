@@ -10,6 +10,7 @@
       "src/views/WuNei.vue",
       "src/views/Stone.vue",
       "src/views/StoneEmulator/StoneEmulator.vue",
+      "src/views/StarStones.vue",
       "src/views/Grids.vue",
       "src/components/input-text/InputText.vue",
       "src/components/input-number/InputNumber.vue"
@@ -103,6 +104,14 @@
     "imports": [
       "index.html",
       "_data2.js"
+    ]
+  },
+  "src/views/StarStones.vue": {
+    "file": "js/StarStones.js",
+    "src": "src/views/StarStones.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
     ]
   },
   "src/views/Grids.vue": {

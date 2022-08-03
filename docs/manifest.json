@@ -22,12 +22,12 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useTransformTools.js",
+      "_downloadFile.js",
       "_lodash.js"
     ]
   },
-  "_useTransformTools.js": {
-    "file": "js/useTransformTools.js",
+  "_downloadFile.js": {
+    "file": "js/downloadFile.js",
     "imports": [
       "index.html"
     ]
@@ -44,7 +44,7 @@
       "_lodash.js",
       "_useHeroes.js",
       "src/components/input-number/InputNumber.vue",
-      "_useTransformTools.js",
+      "_downloadFile.js",
       "_data.js"
     ]
   },

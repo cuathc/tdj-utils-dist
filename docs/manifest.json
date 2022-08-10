@@ -1,4 +1,8 @@
 {
+  "src/assets/selected.svg": {
+    "file": "assets/selected.svg",
+    "src": "src/assets/selected.svg"
+  },
   "index.html": {
     "file": "js/index.js",
     "src": "index.html",
@@ -22,12 +26,12 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_downloadFile.js",
+      "_shared.js",
       "_lodash.js"
     ]
   },
-  "_downloadFile.js": {
-    "file": "js/downloadFile.js",
+  "_shared.js": {
+    "file": "js/shared.js",
     "imports": [
       "index.html"
     ]
@@ -44,7 +48,7 @@
       "_lodash.js",
       "_useHeroes.js",
       "src/components/input-number/InputNumber.vue",
-      "_downloadFile.js",
+      "_shared.js",
       "_data.js"
     ]
   },
@@ -131,5 +135,9 @@
     "imports": [
       "index.html"
     ]
+  },
+  "style.css": {
+    "file": "assets/style.css",
+    "src": "style.css"
   }
 }

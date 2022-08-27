@@ -49,6 +49,7 @@
       "_useHeroes.js",
       "src/components/input-number/InputNumber.vue",
       "_shared.js",
+      "_star-crystals.js",
       "_data.js"
     ]
   },
@@ -68,6 +69,12 @@
   },
   "_data.js": {
     "file": "js/data.js"
+  },
+  "_star-crystals.js": {
+    "file": "js/star-crystals.js",
+    "imports": [
+      "index.html"
+    ]
   },
   "src/views/HuanJing.vue": {
     "file": "js/HuanJing.js",
@@ -115,7 +122,8 @@
     "src": "src/views/StarStones.vue",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "index.html",
+      "_star-crystals.js"
     ]
   },
   "src/views/Grids.vue": {

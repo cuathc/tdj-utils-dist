@@ -14,7 +14,7 @@
       "src/views/WuNei.vue",
       "src/views/Stone.vue",
       "src/views/StoneEmulator/StoneEmulator.vue",
-      "src/views/StarStones.vue",
+      "src/views/StarCrystals.vue",
       "src/views/Grids.vue",
       "src/components/input-text/InputText.vue",
       "src/components/input-number/InputNumber.vue"
@@ -117,9 +117,9 @@
       "_data2.js"
     ]
   },
-  "src/views/StarStones.vue": {
-    "file": "js/StarStones.js",
-    "src": "src/views/StarStones.vue",
+  "src/views/StarCrystals.vue": {
+    "file": "js/StarCrystals.js",
+    "src": "src/views/StarCrystals.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",

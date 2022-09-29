@@ -3,6 +3,14 @@
     "file": "assets/selected.svg",
     "src": "src/assets/selected.svg"
   },
+  "src/views/components/GridItem/cliff.svg": {
+    "file": "assets/cliff.svg",
+    "src": "src/views/components/GridItem/cliff.svg"
+  },
+  "src/views/components/GridItem/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/views/components/GridItem/block.svg"
+  },
   "index.html": {
     "file": "js/index.js",
     "src": "index.html",
@@ -134,6 +142,10 @@
       "index.html",
       "_lodash.js",
       "_useHeroes.js"
+    ],
+    "assets": [
+      "assets/cliff.svg",
+      "assets/block.svg"
     ]
   },
   "src/components/input-text/InputText.vue": {

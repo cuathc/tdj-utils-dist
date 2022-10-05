@@ -35,6 +35,7 @@
     "imports": [
       "index.html",
       "_shared.js",
+      "_index2.js",
       "_lodash.js"
     ]
   },
@@ -47,30 +48,33 @@
   "_lodash.js": {
     "file": "js/lodash.js"
   },
+  "_index2.js": {
+    "file": "js/index2.js"
+  },
   "src/views/Calculator.vue": {
     "file": "js/Calculator.js",
     "src": "src/views/Calculator.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_lodash.js",
       "_useHeroes.js",
+      "_lodash.js",
       "src/components/input-number/InputNumber.vue",
       "_shared.js",
       "_star-crystals.js",
       "_data.js"
     ]
   },
-  "src/components/input-number/InputNumber.vue": {
-    "file": "js/InputNumber.js",
-    "src": "src/components/input-number/InputNumber.vue",
-    "isDynamicEntry": true,
+  "_useHeroes.js": {
+    "file": "js/useHeroes.js",
     "imports": [
       "index.html"
     ]
   },
-  "_useHeroes.js": {
-    "file": "js/useHeroes.js",
+  "src/components/input-number/InputNumber.vue": {
+    "file": "js/InputNumber.js",
+    "src": "src/components/input-number/InputNumber.vue",
+    "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
@@ -100,7 +104,8 @@
     "src": "src/views/WuNei.vue",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "index.html",
+      "_index2.js"
     ]
   },
   "src/views/Stone.vue": {

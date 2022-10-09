@@ -35,6 +35,7 @@
     "imports": [
       "index.html",
       "_shared.js",
+      "_Modal.vue_vue_type_style_index_0_lang.js",
       "_index2.js",
       "_lodash.js"
     ]
@@ -50,6 +51,12 @@
   },
   "_index2.js": {
     "file": "js/index2.js"
+  },
+  "_Modal.vue_vue_type_style_index_0_lang.js": {
+    "file": "js/Modal.vue_vue_type_style_index_0_lang.js",
+    "imports": [
+      "index.html"
+    ]
   },
   "src/views/Calculator.vue": {
     "file": "js/Calculator.js",
@@ -146,7 +153,8 @@
     "imports": [
       "index.html",
       "_lodash.js",
-      "_useHeroes.js"
+      "_useHeroes.js",
+      "_Modal.vue_vue_type_style_index_0_lang.js"
     ],
     "assets": [
       "assets/cliff.svg",

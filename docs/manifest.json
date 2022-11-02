@@ -20,6 +20,7 @@
       "src/views/Calculator.vue",
       "src/views/HuanJing.vue",
       "src/views/WuNei.vue",
+      "src/views/Equipment.vue",
       "src/views/Stone.vue",
       "src/views/StoneEmulator/StoneEmulator.vue",
       "src/views/StarCrystals.vue",
@@ -37,6 +38,7 @@
       "_shared.js",
       "_Modal.vue_vue_type_style_index_0_lang.js",
       "_index2.js",
+      "_index3.js",
       "_lodash.js"
     ]
   },
@@ -52,6 +54,9 @@
   "_index2.js": {
     "file": "js/index2.js"
   },
+  "_index3.js": {
+    "file": "js/index3.js"
+  },
   "_Modal.vue_vue_type_style_index_0_lang.js": {
     "file": "js/Modal.vue_vue_type_style_index_0_lang.js",
     "imports": [
@@ -66,6 +71,7 @@
       "index.html",
       "_useHeroes.js",
       "_lodash.js",
+      "_CollapsePanel.js",
       "src/components/input-number/InputNumber.vue",
       "_shared.js",
       "_star-crystals.js",
@@ -74,6 +80,12 @@
   },
   "_useHeroes.js": {
     "file": "js/useHeroes.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_CollapsePanel.js": {
+    "file": "js/CollapsePanel.js",
     "imports": [
       "index.html"
     ]
@@ -112,6 +124,16 @@
     "isDynamicEntry": true,
     "imports": [
       "index.html",
+      "_index3.js"
+    ]
+  },
+  "src/views/Equipment.vue": {
+    "file": "js/Equipment.js",
+    "src": "src/views/Equipment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_CollapsePanel.js",
       "_index2.js"
     ]
   },

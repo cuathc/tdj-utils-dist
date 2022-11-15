@@ -11,6 +11,10 @@
     "file": "assets/block.svg",
     "src": "src/views/components/GridItem/block.svg"
   },
+  "src/views/components/GridItem/disabled.svg": {
+    "file": "assets/disabled.svg",
+    "src": "src/views/components/GridItem/disabled.svg"
+  },
   "index.html": {
     "file": "js/index.js",
     "src": "index.html",
@@ -182,7 +186,8 @@
     ],
     "assets": [
       "assets/cliff.svg",
-      "assets/block.svg"
+      "assets/block.svg",
+      "assets/disabled.svg"
     ]
   },
   "src/components/input-text/InputText.vue": {

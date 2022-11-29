@@ -7,13 +7,13 @@
     "file": "assets/cliff.svg",
     "src": "src/views/components/GridItem/cliff.svg"
   },
-  "src/views/components/GridItem/block.svg": {
-    "file": "assets/block.svg",
-    "src": "src/views/components/GridItem/block.svg"
-  },
   "src/views/components/GridItem/disabled.svg": {
     "file": "assets/disabled.svg",
     "src": "src/views/components/GridItem/disabled.svg"
+  },
+  "src/views/components/GridItem/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/views/components/GridItem/block.svg"
   },
   "index.html": {
     "file": "js/index.js",

@@ -7,13 +7,25 @@
     "file": "assets/cliff.svg",
     "src": "src/views/components/GridItem/cliff.svg"
   },
+  "src/views/components/GridItem/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/views/components/GridItem/block.svg"
+  },
   "src/views/components/GridItem/disabled.svg": {
     "file": "assets/disabled.svg",
     "src": "src/views/components/GridItem/disabled.svg"
   },
-  "src/views/components/GridItem/block.svg": {
-    "file": "assets/block.svg",
-    "src": "src/views/components/GridItem/block.svg"
+  "src/views/Stone/components/img/yuanhu.png": {
+    "file": "assets/yuanhu.png",
+    "src": "src/views/Stone/components/img/yuanhu.png"
+  },
+  "src/views/Stone/components/img/hehao.png": {
+    "file": "assets/hehao.png",
+    "src": "src/views/Stone/components/img/hehao.png"
+  },
+  "src/views/Stone/components/img/guidaozhe.png": {
+    "file": "assets/guidaozhe.png",
+    "src": "src/views/Stone/components/img/guidaozhe.png"
   },
   "index.html": {
     "file": "js/index.js",
@@ -105,7 +117,12 @@
     ]
   },
   "_data.js": {
-    "file": "js/data.js"
+    "file": "js/data.js",
+    "assets": [
+      "assets/yuanhu.png",
+      "assets/hehao.png",
+      "assets/guidaozhe.png"
+    ]
   },
   "_star-crystals.js": {
     "file": "js/star-crystals.js",

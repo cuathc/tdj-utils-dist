@@ -78,8 +78,7 @@
   "_shared.js": {
     "file": "js/shared.js",
     "imports": [
-      "index.html",
-      "_index2.js"
+      "index.html"
     ]
   },
   "_lodash.js": {
@@ -109,8 +108,7 @@
       "src/components/input-number/InputNumber.vue",
       "_shared.js",
       "_star-crystals.js",
-      "_data.js",
-      "_index2.js"
+      "_data.js"
     ]
   },
   "_useHeroes.js": {

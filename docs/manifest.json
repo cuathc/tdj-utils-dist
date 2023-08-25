@@ -3,29 +3,29 @@
     "file": "assets/selected.svg",
     "src": "src/assets/selected.svg"
   },
-  "src/views/components/GridItem/block.svg": {
-    "file": "assets/block.svg",
-    "src": "src/views/components/GridItem/block.svg"
-  },
-  "src/views/components/GridItem/cliff.svg": {
+  "src/components/grid-item/cliff.svg": {
     "file": "assets/cliff.svg",
-    "src": "src/views/components/GridItem/cliff.svg"
+    "src": "src/components/grid-item/cliff.svg"
   },
-  "src/views/components/GridItem/disabled.svg": {
+  "src/components/grid-item/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/components/grid-item/block.svg"
+  },
+  "src/components/grid-item/disabled.svg": {
     "file": "assets/disabled.svg",
-    "src": "src/views/components/GridItem/disabled.svg"
+    "src": "src/components/grid-item/disabled.svg"
   },
-  "src/views/Stone/components/img/hehao.png": {
-    "file": "assets/hehao.png",
-    "src": "src/views/Stone/components/img/hehao.png"
-  },
-  "src/views/Stone/components/img/yuanhu.png": {
+  "src/components/stone-list/img/yuanhu.png": {
     "file": "assets/yuanhu.png",
-    "src": "src/views/Stone/components/img/yuanhu.png"
+    "src": "src/components/stone-list/img/yuanhu.png"
   },
-  "src/views/Stone/components/img/guidaozhe.png": {
+  "src/components/stone-list/img/hehao.png": {
+    "file": "assets/hehao.png",
+    "src": "src/components/stone-list/img/hehao.png"
+  },
+  "src/components/stone-list/img/guidaozhe.png": {
     "file": "assets/guidaozhe.png",
-    "src": "src/views/Stone/components/img/guidaozhe.png"
+    "src": "src/components/stone-list/img/guidaozhe.png"
   },
   "src/components/SortIcon/sort-desc.svg": {
     "file": "assets/sort-desc.svg",
@@ -46,11 +46,13 @@
     "dynamicImports": [
       "src/views/Heroes.vue",
       "src/views/Calculator.vue",
+      "src/views/Skills.vue",
+      "src/views/Buffs.vue",
       "src/views/HuanJing.vue",
       "src/views/WuNei.vue",
       "src/views/Equipment.vue",
       "src/views/Stone.vue",
-      "src/views/StoneEmulator/StoneEmulator.vue",
+      "src/views/StoneEmulator.vue",
       "src/views/StarCrystals.vue",
       "src/views/Grids.vue",
       "src/components/input-text/InputText.vue",
@@ -131,6 +133,12 @@
       "index.html"
     ]
   },
+  "_star-crystals.js": {
+    "file": "js/star-crystals.js",
+    "imports": [
+      "index.html"
+    ]
+  },
   "_data.js": {
     "file": "js/data.js",
     "assets": [
@@ -139,8 +147,18 @@
       "assets/guidaozhe.png"
     ]
   },
-  "_star-crystals.js": {
-    "file": "js/star-crystals.js",
+  "src/views/Skills.vue": {
+    "file": "js/Skills.js",
+    "src": "src/views/Skills.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/views/Buffs.vue": {
+    "file": "js/Buffs.js",
+    "src": "src/views/Buffs.vue",
+    "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
@@ -182,19 +200,19 @@
     "imports": [
       "index.html",
       "_data.js",
-      "_data2.js"
+      "_useStoneEmulator.js"
     ]
   },
-  "_data2.js": {
-    "file": "js/data2.js"
+  "_useStoneEmulator.js": {
+    "file": "js/useStoneEmulator.js"
   },
-  "src/views/StoneEmulator/StoneEmulator.vue": {
+  "src/views/StoneEmulator.vue": {
     "file": "js/StoneEmulator.js",
-    "src": "src/views/StoneEmulator/StoneEmulator.vue",
+    "src": "src/views/StoneEmulator.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_data2.js"
+      "_useStoneEmulator.js"
     ]
   },
   "src/views/StarCrystals.vue": {

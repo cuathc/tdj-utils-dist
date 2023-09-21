@@ -3,29 +3,17 @@
     "file": "assets/selected.svg",
     "src": "src/assets/selected.svg"
   },
-  "src/components/grid-item/cliff.svg": {
-    "file": "assets/cliff.svg",
-    "src": "src/components/grid-item/cliff.svg"
+  "src/components/grid-item/disabled.svg": {
+    "file": "assets/disabled.svg",
+    "src": "src/components/grid-item/disabled.svg"
   },
   "src/components/grid-item/block.svg": {
     "file": "assets/block.svg",
     "src": "src/components/grid-item/block.svg"
   },
-  "src/components/grid-item/disabled.svg": {
-    "file": "assets/disabled.svg",
-    "src": "src/components/grid-item/disabled.svg"
-  },
-  "src/components/stone-list/img/yuanhu.png": {
-    "file": "assets/yuanhu.png",
-    "src": "src/components/stone-list/img/yuanhu.png"
-  },
-  "src/components/stone-list/img/hehao.png": {
-    "file": "assets/hehao.png",
-    "src": "src/components/stone-list/img/hehao.png"
-  },
-  "src/components/stone-list/img/guidaozhe.png": {
-    "file": "assets/guidaozhe.png",
-    "src": "src/components/stone-list/img/guidaozhe.png"
+  "src/components/grid-item/cliff.svg": {
+    "file": "assets/cliff.svg",
+    "src": "src/components/grid-item/cliff.svg"
   },
   "src/components/SortIcon/sort-desc.svg": {
     "file": "assets/sort-desc.svg",
@@ -38,6 +26,18 @@
   "src/components/SortIcon/sort-none.svg": {
     "file": "assets/sort-none.svg",
     "src": "src/components/SortIcon/sort-none.svg"
+  },
+  "src/components/stone-list/img/guidaozhe.png": {
+    "file": "assets/guidaozhe.png",
+    "src": "src/components/stone-list/img/guidaozhe.png"
+  },
+  "src/components/stone-list/img/yuanhu.png": {
+    "file": "assets/yuanhu.png",
+    "src": "src/components/stone-list/img/yuanhu.png"
+  },
+  "src/components/stone-list/img/hehao.png": {
+    "file": "assets/hehao.png",
+    "src": "src/components/stone-list/img/hehao.png"
   },
   "index.html": {
     "file": "js/index.js",

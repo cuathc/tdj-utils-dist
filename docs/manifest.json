@@ -7,13 +7,13 @@
     "file": "assets/cliff.svg",
     "src": "src/components/grid-item/cliff.svg"
   },
-  "src/components/grid-item/disabled.svg": {
-    "file": "assets/disabled.svg",
-    "src": "src/components/grid-item/disabled.svg"
-  },
   "src/components/grid-item/block.svg": {
     "file": "assets/block.svg",
     "src": "src/components/grid-item/block.svg"
+  },
+  "src/components/grid-item/disabled.svg": {
+    "file": "assets/disabled.svg",
+    "src": "src/components/grid-item/disabled.svg"
   },
   "src/components/SortIcon/sort-desc.svg": {
     "file": "assets/sort-desc.svg",

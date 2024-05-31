@@ -15,30 +15,6 @@
     "file": "assets/disabled.svg",
     "src": "src/components/grid-item/disabled.svg"
   },
-  "src/components/stone-list/img/hehao.png": {
-    "file": "assets/hehao.png",
-    "src": "src/components/stone-list/img/hehao.png"
-  },
-  "src/components/stone-list/img/yuanhu.png": {
-    "file": "assets/yuanhu.png",
-    "src": "src/components/stone-list/img/yuanhu.png"
-  },
-  "src/components/stone-list/img/guidaozhe.png": {
-    "file": "assets/guidaozhe.png",
-    "src": "src/components/stone-list/img/guidaozhe.png"
-  },
-  "src/components/stone-list/img/杌晷.png": {
-    "file": "assets/杌晷.png",
-    "src": "src/components/stone-list/img/杌晷.png"
-  },
-  "src/components/stone-list/img/妄幻.png": {
-    "file": "assets/妄幻.png",
-    "src": "src/components/stone-list/img/妄幻.png"
-  },
-  "src/components/stone-list/img/伥厉.png": {
-    "file": "assets/伥厉.png",
-    "src": "src/components/stone-list/img/伥厉.png"
-  },
   "src/components/SortIcon/sort-desc.svg": {
     "file": "assets/sort-desc.svg",
     "src": "src/components/SortIcon/sort-desc.svg"
@@ -51,216 +27,75 @@
     "file": "assets/sort-none.svg",
     "src": "src/components/SortIcon/sort-none.svg"
   },
+  "src/components/stone-list/img/hehao.png": {
+    "file": "assets/hehao.png",
+    "src": "src/components/stone-list/img/hehao.png"
+  },
+  "src/components/stone-list/img/yuanhu.png": {
+    "file": "assets/yuanhu.png",
+    "src": "src/components/stone-list/img/yuanhu.png"
+  },
+  "src/components/stone-list/img/杌晷.png": {
+    "file": "assets/杌晷.png",
+    "src": "src/components/stone-list/img/杌晷.png"
+  },
+  "src/components/stone-list/img/guidaozhe.png": {
+    "file": "assets/guidaozhe.png",
+    "src": "src/components/stone-list/img/guidaozhe.png"
+  },
+  "src/components/stone-list/img/妄幻.png": {
+    "file": "assets/妄幻.png",
+    "src": "src/components/stone-list/img/妄幻.png"
+  },
+  "src/components/stone-list/img/伥厉.png": {
+    "file": "assets/伥厉.png",
+    "src": "src/components/stone-list/img/伥厉.png"
+  },
   "index.html": {
     "file": "js/index.js",
     "src": "index.html",
     "isEntry": true,
+    "imports": [
+      "_vendor.js",
+      "_components.js",
+      "_views.js"
+    ],
     "dynamicImports": [
-      "src/views/Heroes.vue",
-      "src/views/Calculator.vue",
-      "src/views/Skills.vue",
-      "src/views/Buffs.vue",
-      "src/views/HuanJing.vue",
-      "src/views/WuNei.vue",
-      "src/views/Equipment.vue",
-      "src/views/Stone.vue",
-      "src/views/StoneEmulator.vue",
-      "src/views/StarCrystals.vue",
-      "src/views/Grids.vue",
-      "src/components/input-text/InputText.vue",
-      "src/components/input-number/InputNumber.vue"
+      "_views.js"
     ]
   },
-  "src/views/Heroes.vue": {
-    "file": "js/Heroes.js",
-    "src": "src/views/Heroes.vue",
-    "isDynamicEntry": true,
+  "_components.js": {
+    "file": "js/components.js",
     "imports": [
-      "index.html",
-      "_shared.js",
-      "_Modal.vue_vue_type_style_index_0_lang.js",
-      "_index2.js",
-      "_index3.js",
-      "_lodash.js"
+      "_vendor.js"
     ],
     "assets": [
       "assets/sort-desc.svg",
       "assets/sort-asc.svg",
-      "assets/sort-none.svg"
-    ]
-  },
-  "_shared.js": {
-    "file": "js/shared.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_lodash.js": {
-    "file": "js/lodash.js"
-  },
-  "_index2.js": {
-    "file": "js/index2.js"
-  },
-  "_index3.js": {
-    "file": "js/index3.js"
-  },
-  "_Modal.vue_vue_type_style_index_0_lang.js": {
-    "file": "js/Modal.vue_vue_type_style_index_0_lang.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/views/Calculator.vue": {
-    "file": "js/Calculator.js",
-    "src": "src/views/Calculator.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_useHeroes.js",
-      "_lodash.js",
-      "_CollapsePanel.js",
-      "src/components/input-number/InputNumber.vue",
-      "_shared.js",
-      "_star-crystals.js",
-      "_data.js"
-    ]
-  },
-  "_useHeroes.js": {
-    "file": "js/useHeroes.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_CollapsePanel.js": {
-    "file": "js/CollapsePanel.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/components/input-number/InputNumber.vue": {
-    "file": "js/InputNumber.js",
-    "src": "src/components/input-number/InputNumber.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_star-crystals.js": {
-    "file": "js/star-crystals.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_data.js": {
-    "file": "js/data.js",
-    "assets": [
+      "assets/sort-none.svg",
       "assets/yuanhu.png",
       "assets/hehao.png",
       "assets/guidaozhe.png",
       "assets/杌晷.png",
       "assets/妄幻.png",
-      "assets/伥厉.png"
-    ]
-  },
-  "src/views/Skills.vue": {
-    "file": "js/Skills.js",
-    "src": "src/views/Skills.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/views/Buffs.vue": {
-    "file": "js/Buffs.js",
-    "src": "src/views/Buffs.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/views/HuanJing.vue": {
-    "file": "js/HuanJing.js",
-    "src": "src/views/HuanJing.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ],
-    "assets": [
-      "assets/selected.svg"
-    ]
-  },
-  "src/views/WuNei.vue": {
-    "file": "js/WuNei.js",
-    "src": "src/views/WuNei.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_index3.js"
-    ]
-  },
-  "src/views/Equipment.vue": {
-    "file": "js/Equipment.js",
-    "src": "src/views/Equipment.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_CollapsePanel.js",
-      "_index2.js"
-    ]
-  },
-  "src/views/Stone.vue": {
-    "file": "js/Stone.js",
-    "src": "src/views/Stone.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_data.js",
-      "_useStoneEmulator.js"
-    ]
-  },
-  "_useStoneEmulator.js": {
-    "file": "js/useStoneEmulator.js"
-  },
-  "src/views/StoneEmulator.vue": {
-    "file": "js/StoneEmulator.js",
-    "src": "src/views/StoneEmulator.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_useStoneEmulator.js"
-    ]
-  },
-  "src/views/StarCrystals.vue": {
-    "file": "js/StarCrystals.js",
-    "src": "src/views/StarCrystals.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_star-crystals.js"
-    ]
-  },
-  "src/views/Grids.vue": {
-    "file": "js/Grids.js",
-    "src": "src/views/Grids.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_lodash.js",
-      "_useHeroes.js",
-      "_Modal.vue_vue_type_style_index_0_lang.js"
-    ],
-    "assets": [
+      "assets/伥厉.png",
       "assets/cliff.svg",
       "assets/block.svg",
       "assets/disabled.svg"
     ]
   },
-  "src/components/input-text/InputText.vue": {
-    "file": "js/InputText.js",
-    "src": "src/components/input-text/InputText.vue",
+  "_vendor.js": {
+    "file": "js/vendor.js"
+  },
+  "_views.js": {
+    "file": "js/views.js",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "_vendor.js",
+      "_components.js"
+    ],
+    "assets": [
+      "assets/selected.svg"
     ]
   },
   "style.css": {

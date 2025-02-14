@@ -7,29 +7,37 @@
     "file": "assets/cliff.svg",
     "src": "src/components/grid-item/cliff.svg"
   },
-  "src/components/grid-item/block.svg": {
-    "file": "assets/block.svg",
-    "src": "src/components/grid-item/block.svg"
-  },
   "src/components/grid-item/disabled.svg": {
     "file": "assets/disabled.svg",
     "src": "src/components/grid-item/disabled.svg"
   },
-  "src/components/SortIcon/sort-desc.svg": {
-    "file": "assets/sort-desc.svg",
-    "src": "src/components/SortIcon/sort-desc.svg"
-  },
-  "src/components/SortIcon/sort-asc.svg": {
-    "file": "assets/sort-asc.svg",
-    "src": "src/components/SortIcon/sort-asc.svg"
+  "src/components/grid-item/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/components/grid-item/block.svg"
   },
   "src/components/SortIcon/sort-none.svg": {
     "file": "assets/sort-none.svg",
     "src": "src/components/SortIcon/sort-none.svg"
   },
+  "src/components/SortIcon/sort-asc.svg": {
+    "file": "assets/sort-asc.svg",
+    "src": "src/components/SortIcon/sort-asc.svg"
+  },
+  "src/components/SortIcon/sort-desc.svg": {
+    "file": "assets/sort-desc.svg",
+    "src": "src/components/SortIcon/sort-desc.svg"
+  },
   "src/components/stone-list/img/yuanhu.png": {
     "file": "assets/yuanhu.png",
     "src": "src/components/stone-list/img/yuanhu.png"
+  },
+  "src/components/stone-list/img/hehao.png": {
+    "file": "assets/hehao.png",
+    "src": "src/components/stone-list/img/hehao.png"
+  },
+  "src/components/stone-list/img/guidaozhe.png": {
+    "file": "assets/guidaozhe.png",
+    "src": "src/components/stone-list/img/guidaozhe.png"
   },
   "src/components/stone-list/img/杌晷.png": {
     "file": "assets/杌晷.png",
@@ -42,14 +50,6 @@
   "src/components/stone-list/img/伥厉.png": {
     "file": "assets/伥厉.png",
     "src": "src/components/stone-list/img/伥厉.png"
-  },
-  "src/components/stone-list/img/hehao.png": {
-    "file": "assets/hehao.png",
-    "src": "src/components/stone-list/img/hehao.png"
-  },
-  "src/components/stone-list/img/guidaozhe.png": {
-    "file": "assets/guidaozhe.png",
-    "src": "src/components/stone-list/img/guidaozhe.png"
   },
   "index.html": {
     "file": "js/index.js",

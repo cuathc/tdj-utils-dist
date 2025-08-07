@@ -7,37 +7,37 @@
     "file": "assets/cliff.svg",
     "src": "src/components/grid-item/cliff.svg"
   },
-  "src/components/grid-item/disabled.svg": {
-    "file": "assets/disabled.svg",
-    "src": "src/components/grid-item/disabled.svg"
-  },
   "src/components/grid-item/block.svg": {
     "file": "assets/block.svg",
     "src": "src/components/grid-item/block.svg"
+  },
+  "src/components/grid-item/disabled.svg": {
+    "file": "assets/disabled.svg",
+    "src": "src/components/grid-item/disabled.svg"
   },
   "src/components/SortIcon/sort-none.svg": {
     "file": "assets/sort-none.svg",
     "src": "src/components/SortIcon/sort-none.svg"
   },
-  "src/components/SortIcon/sort-asc.svg": {
-    "file": "assets/sort-asc.svg",
-    "src": "src/components/SortIcon/sort-asc.svg"
-  },
   "src/components/SortIcon/sort-desc.svg": {
     "file": "assets/sort-desc.svg",
     "src": "src/components/SortIcon/sort-desc.svg"
   },
-  "src/components/stone-list/img/yuanhu.png": {
-    "file": "assets/yuanhu.png",
-    "src": "src/components/stone-list/img/yuanhu.png"
+  "src/components/SortIcon/sort-asc.svg": {
+    "file": "assets/sort-asc.svg",
+    "src": "src/components/SortIcon/sort-asc.svg"
   },
-  "src/components/stone-list/img/hehao.png": {
-    "file": "assets/hehao.png",
-    "src": "src/components/stone-list/img/hehao.png"
+  "src/components/stone-list/img/怨忽.png": {
+    "file": "assets/怨忽.png",
+    "src": "src/components/stone-list/img/怨忽.png"
   },
-  "src/components/stone-list/img/guidaozhe.png": {
-    "file": "assets/guidaozhe.png",
-    "src": "src/components/stone-list/img/guidaozhe.png"
+  "src/components/stone-list/img/鬼道者.png": {
+    "file": "assets/鬼道者.png",
+    "src": "src/components/stone-list/img/鬼道者.png"
+  },
+  "src/components/stone-list/img/翯号.png": {
+    "file": "assets/翯号.png",
+    "src": "src/components/stone-list/img/翯号.png"
   },
   "src/components/stone-list/img/杌晷.png": {
     "file": "assets/杌晷.png",
@@ -50,6 +50,18 @@
   "src/components/stone-list/img/伥厉.png": {
     "file": "assets/伥厉.png",
     "src": "src/components/stone-list/img/伥厉.png"
+  },
+  "src/components/stone-list/img/咒首蜈蚣.png": {
+    "file": "assets/咒首蜈蚣.png",
+    "src": "src/components/stone-list/img/咒首蜈蚣.png"
+  },
+  "src/components/stone-list/img/妖将.png": {
+    "file": "assets/妖将.png",
+    "src": "src/components/stone-list/img/妖将.png"
+  },
+  "src/components/stone-list/img/羽魅.png": {
+    "file": "assets/羽魅.png",
+    "src": "src/components/stone-list/img/羽魅.png"
   },
   "index.html": {
     "file": "js/index.js",
@@ -73,12 +85,15 @@
       "assets/sort-desc.svg",
       "assets/sort-asc.svg",
       "assets/sort-none.svg",
-      "assets/yuanhu.png",
-      "assets/hehao.png",
-      "assets/guidaozhe.png",
+      "assets/怨忽.png",
+      "assets/翯号.png",
+      "assets/鬼道者.png",
       "assets/杌晷.png",
       "assets/妄幻.png",
       "assets/伥厉.png",
+      "assets/咒首蜈蚣.png",
+      "assets/妖将.png",
+      "assets/羽魅.png",
       "assets/cliff.svg",
       "assets/block.svg",
       "assets/disabled.svg"

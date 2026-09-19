@@ -15,7 +15,11 @@
       "assets/伥厉.png",
       "assets/咒首蜈蚣.png",
       "assets/妖将.png",
-      "assets/羽魅.png"
+      "assets/羽魅.png",
+      "assets/cliff.svg",
+      "assets/block.svg",
+      "assets/disabled.svg",
+      "assets/skull.svg"
     ]
   },
   "_rolldown-runtime.js": {
@@ -39,6 +43,22 @@
       "_rolldown-runtime.js",
       "_vendor.js"
     ]
+  },
+  "src/components/grid-item/assets/block.svg": {
+    "file": "assets/block.svg",
+    "src": "src/components/grid-item/assets/block.svg"
+  },
+  "src/components/grid-item/assets/cliff.svg": {
+    "file": "assets/cliff.svg",
+    "src": "src/components/grid-item/assets/cliff.svg"
+  },
+  "src/components/grid-item/assets/disabled.svg": {
+    "file": "assets/disabled.svg",
+    "src": "src/components/grid-item/assets/disabled.svg"
+  },
+  "src/components/grid-item/assets/skull.svg": {
+    "file": "assets/skull.svg",
+    "src": "src/components/grid-item/assets/skull.svg"
   },
   "src/components/stone-list/img/伥厉.png": {
     "file": "assets/伥厉.png",
